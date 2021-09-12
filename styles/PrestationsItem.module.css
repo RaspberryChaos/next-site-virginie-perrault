@@ -1,0 +1,50 @@
+.image {
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0;
+  }
+
+  .imageContainer {
+      width: 75%;
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .alignLeft {
+      text-align: left;
+  }
+
+  #massage-bebe {
+    background-color: var(--clr-massage-bebe);
+  }
+  
+  #massage-ecole {
+    background-color: var(--clr-ecole);
+  }
+
+/*MEDIA QUERIES*/
+
+/*Extra Small, Mobile*/
+@media (min-width: 500px) {
+    .imageContainer {
+      width: 50%;
+    }
+  }
+
+  /* Small Devices, Tablets */
+@media (min-width: 768px) {
+    .imageContainer {
+        width: 60%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media (min-width: 992px) {
+    .imageContainer {
+        width: 32%;
+    }
+}
