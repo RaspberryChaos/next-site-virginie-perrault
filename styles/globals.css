@@ -1,16 +1,101 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
 
-a {
-  color: inherit;
-  text-decoration: none;
+:root {
+  --clr-headings: #212353;
+  --clr-btn-txt: #ffffff;
+  --clr-light-purple: #e4bbe8;
+  --clr-purple: #c182c8;
+  --clr-darkpurple: #7d4284;
+  --clr-btn-pink: #faa4ab;
+  --clr-btn-text: #ffffff;
+  --clr-nav: #e0cce3;
+
+  --clr-massage-bebe: rgba(182, 178, 233, 0.75);
+  --clr-yoga-kids: rgba(123, 215, 208, 0.75);
+  --clr-massage-femme-enceinte: rgba(251, 202, 227, 0.75);
+  --clr-conseil: rgba(227, 176, 232, 0.75);
+  --clr-papa: rgba(181, 209, 250, 0.75);
+  --clr-ecole: rgba(250, 201, 164, 0.75);
+
+  --ff-headings: "Boogaloo", cursive;
+  --ff-text-primary: "Montserrat", sans-serif;
+
+  --text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-text-primary);
+  font-size: 1.25rem;
+  color: var(--clr-headings);
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-headings);
+}
+
+ol,
+ul {
+  list-style: none;
+  text-align: left;
+  display: inline-block;
+}
+
+#container {
+  width: 100%;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.btn {
+  border-radius: 2em;
+  color: var(--clr-btn-txt);
+  padding: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  line-height: 160%;
+  border: none;
+  font-family: var(--ff-text-primary);
+  font-size: 1rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  margin: 0.5rem;
+  z-index: 20;
+}
+
+.btn-esp {
+  background-color: var(--clr-purple);
+  background-image: radial-gradient(var(--clr-purple), var(--clr-darkpurple));
+}
+
+.btn-esp:hover {
+  background-image: none;
+  background-color: var(--clr-darkpurple);
+}
+
+.btn-rdv {
+  background-color: var(--clr-btn-pink);
+  background-image: radial-gradient(var(--clr-btn-pink), #f05f76);
+}
+
+.btn-rdv:hover {
+  background-image: none;
+  background-color: #f05f76;
+}
+
+.btn-esp:active,
+.btn-rdv:active {
+  transform: translateY(4px);
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
