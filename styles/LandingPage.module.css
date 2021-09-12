@@ -1,0 +1,62 @@
+.landingPage {
+    position: relative;
+    margin-bottom: 10vh;
+    background-image: url("../public/imgs/main-image-small70.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+  }
+  
+  .headerButtons {
+    margin: 2rem 0;
+  }
+  
+  .headerButtons a {
+    display: block;
+    margin: 1rem;
+  }
+
+  .aideSoignante {
+    font-family: var(--ff-headings);
+    margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+  }
+
+
+/*MEDIA QUERIES*/
+
+/* Small Devices, Tablets */
+@media (min-width: 768px) {
+    .headerButtons {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .headerButtons a {
+        display: inline-block;
+    }
+    .landingPage {
+        background-image: url("../public/imgs/main-image.jpeg");
+        background-size: 60%;
+        background-position: right 25%;
+    }
+}
+
+/* Medium Devices, Desktops */
+  @media (min-width: 992px) {
+    .landingPage {
+      background-size: 50%;
+      background-position: 90% 30%;
+    }
+    .headerButtons {
+      flex-direction: row;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media (min-width: 1200px) {
+    .landingPage {
+      background-size: 28%;
+    }
+  }
