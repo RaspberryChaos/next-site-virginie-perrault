@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css';
 import LandingPage from '../components/LandingPage';
 import QuiSuisJe from '../components/QuiSuisJe';
 import PrestationsGrid from '../components/PrestationsGrid';
+import BonsCadeaux from '../components/BonsCadeauxContainer';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <LandingPage />
       <QuiSuisJe />
       <PrestationsGrid />
+      <BonsCadeaux />
     </div>
   )
 }
