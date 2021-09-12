@@ -26,6 +26,13 @@
 
 /*MEDIA QUERIES*/
 
+/*Extra Small, Mobile*/
+@media (min-width: 500px) {
+  .landingPage {
+    background-size: 60%;
+  }
+}
+
 /* Small Devices, Tablets */
 @media (min-width: 768px) {
     .headerButtons {

@@ -1,0 +1,52 @@
+/*Qui Suis-Je*/
+
+.profileHeading {
+    font-family: var(--ff-headings);
+    text-shadow: var(--text-shadow);
+    letter-spacing: 0.1rem;
+  }
+  
+  
+  .photoContainer {
+    width: 70%;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    margin: 0 auto;
+  }
+
+  .profilePic {
+      border-radius: 1rem;
+  }
+  
+  .about * {
+    padding: 1rem;
+  }
+
+
+/*MEDIA QUERIES*/
+
+/*Extra Small, Mobile*/
+@media (min-width: 500px) {
+    .photoContainer {
+        width: 50%;
+    }
+  
+    .profileHeading {
+      font-size: 2.5rem;
+    }
+  
+  }
+
+/* Medium Devices, Desktops */
+@media (min-width: 992px) {
+  
+    .grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+    }
+  
+    .photoContainer {
+      order: 1;
+    }
+
+  }

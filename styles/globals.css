@@ -139,22 +139,12 @@ ul {
   letter-spacing: 0.3rem;
 }
 
-.profileHeading {
-  font-family: var(--ff-headings);
-  text-shadow: var(--text-shadow);
-  letter-spacing: 0.1rem;
-}
-
 .location {
   margin-bottom: 3rem;
 }
 
 
 /*All*/
-
-
-
-/*Qui Suis-Je*/
 
 .purple-container {
   background-color: var(--clr-purple);
@@ -166,16 +156,6 @@ ul {
   align-items: center;
   text-align: center;
   padding: 2rem 1rem;
-}
-
-#profile-pic {
-  max-width: 70%;
-  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
-  border-radius: 1rem;
-}
-
-#about * {
-  padding: 1rem;
 }
 
 /*PRESTATIONS*/
@@ -380,20 +360,6 @@ textarea {
 
 /*MEDIA QUERIES*/
 
-/*Extra Small, Mobile*/
-@media (min-width: 500px) {
-  #profile-pic {
-    max-width: 50%;
-  }
-
-  h1.profile-heading {
-    font-size: 2.5rem;
-  }
-
-  #landing-page {
-    background-size: 60%;
-  }
-}
 
 /* Small Devices, Tablets */
 @media (min-width: 768px) {
@@ -444,14 +410,7 @@ textarea {
     margin-left: 5rem;
   }
 
-  #qui-suis-je {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-  }
 
-  #photo-container {
-    order: 1;
-  }
 
   .section-heading {
     font-size: 4rem;
