@@ -14,11 +14,11 @@ const handleClick = () => {
     <nav className={styles.mainNav}>
         
         <ul className={styles.navMenu} style={{right: (menuOpen ? "0" : "-100%")}}>
-          <li><a href="#qui-suis-je" className={styles.navLink}>Qui suis-je?</a></li>
-          <li><a href="#prestations" className={styles.navLink}>Prestations</a></li>
-          <li><a href="#" className={styles.navLink}>Avis</a></li>
-          <li><a href="#" className={styles.navLink}>Bons Cadeaux</a></li>
-          <li><a href="#" className={styles.navLink}>Contact</a></li>
+          <li><a href="/#qui-suis-je" className={styles.navLink}>Qui suis-je?</a></li>
+          <li><a href="/#prestations" className={styles.navLink}>Prestations</a></li>
+          <li><a href="/#avis" className={styles.navLink}>Avis</a></li>
+          <li><a href="/#bons-cadeaux" className={styles.navLink}>Bons Cadeaux</a></li>
+          <li><a href="/#contact" className={styles.navLink}>Contact</a></li>
         </ul>
         <div className={menuOpen ? styles.hamburgerActive : styles.hamburger}  onClick={handleClick}>
           <span className={styles.bar}></span>
