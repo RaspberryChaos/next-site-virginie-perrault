@@ -299,26 +299,7 @@ textarea {
 
 /*Footer*/
 
-#footer {
-  display: flex;
-  background-color: var(--clr-darkpurple);
-  margin-top: 5vh;
-  height: 8vh;
-  color: #ffffff;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  font-size: 1rem;
-}
 
-#footer a {
-  color: #ffffff;
-}
-
-#footer a:hover {
-  opacity: 0.5;
-}
 
 /*Thanks Page*/
 

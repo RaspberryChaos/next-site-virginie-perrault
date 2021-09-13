@@ -7,10 +7,14 @@ const style = {
         backgroundColor: "#ffffff"
 }
 
+const shadow = {
+    textShadow: "0px 1px 0px rgba(0, 0, 0, 0.5);"
+}
+
 const BonsCadeaux = (props) => {
   return (
     <div className="grid-item" style={style}>
-      <h3>{props.title}</h3>
+      <h3 style={shadow}>{props.title}</h3>
       <Image
         src={props.src}
         alt={props.alt}

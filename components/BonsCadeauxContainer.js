@@ -5,7 +5,7 @@ import BonsCadeaux from "./BonsCadeaux";
 const BonsCadeauxContainer = () => {
   return (
     <section id="bons-cadeaux">
-      <h2 className="section-heading">Bons Cadeaux</h2>
+      <h2 className="sectionHeading">Bons Cadeaux</h2>
       <div className={styles.grid}>
 
         <BonsCadeaux

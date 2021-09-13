@@ -5,7 +5,7 @@ import { prestationsData } from "../prestationsData";
 const PrestationsGrid = () => {
     return (
         <section id="prestations">
-        <h2 className="section-heading">Prestations</h2>
+        <h2 className="sectionHeading">Prestations</h2>
         <div className="location">
           <p>Séance à domicile </p>
           <p>ou</p> 
