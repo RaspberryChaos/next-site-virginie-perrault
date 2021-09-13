@@ -1,0 +1,27 @@
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.formGroup label {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.formGroup input,
+.formGroup textarea {
+  border-radius: 2rem;
+  border: none;
+  font-size: inherit;
+  padding: 0.5rem 1.5rem;
+}
+
+/*MEDIA QUERIES*/
+
+/* Small Devices, Tablets */
+@media (min-width: 768px) {
+  .formGroup {
+    padding: 0.5rem 2rem;
+  }
+}
