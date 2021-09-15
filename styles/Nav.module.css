@@ -5,15 +5,16 @@
     justify-content: flex-end;
     align-items: center;
     box-shadow: var(--text-shadow);
-    background-color: var(--clr-nav);
+    background-color: var(--clr-purple);
   }
   
   .navLink {
     font-family: var(--ff-);
-    color: var(--clr-headings);
+    color: #ffffff;
     font-size: 2rem;
     padding: 0 1rem;
     text-align: center;
+    text-shadow: var(--text-shadow);
   }
   
   .navLink:hover {
@@ -57,7 +58,7 @@
     right: -100%;
     top: 14vh;
     flex-direction: column;
-    background-color: var(--clr-nav);
+    background-color: transparent;
     background-image: linear-gradient(var(--clr-nav), var(--clr-purple));
     width: 100%;
     border-bottom-left-radius: 1rem;

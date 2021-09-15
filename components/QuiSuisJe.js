@@ -19,16 +19,16 @@ const QuiSuisJe = () => {
         <div className={styles.about}>
           <h1 className={styles.profileHeading}>Virginie Perrault</h1>
           <p>
-            Je m’appelle Virginie, je suis âgée de 39 ans, je suis maman de deux
+            Je m&apos;appelle Virginie, je suis âgée de 39 ans, je suis maman de deux
             enfants, et cela fait maintenant un peu plus de 15 ans que je
-            travaille en tant qu’aide-soignante et auxiliaire de puériculture.
-            Avec mon savoir, mes connaissances et ma bienveillance, j’aimerais
+            travaille en tant qu&apos;aide-soignante et auxiliaire de puériculture.
+            Avec mon savoir, mes connaissances et ma bienveillance, j&apos;aimerais
             accompagner les mamans à vivre leur maternité.
           </p>
 
           <h3 className={styles.profileHeading}>Mes Diplômes</h3>
 
-          <p>Diplôme d'État d'Auxiliaire de Puériculture</p>
+          <p>Diplôme d&apos;État d&apos;Auxiliaire de Puériculture</p>
 
           <p>
             Instructeur en Massage pour Bébé, International Association of

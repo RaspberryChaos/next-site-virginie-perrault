@@ -15,38 +15,38 @@ export default function MentionsLegales() {
       <div style={articles}>
         <p>
           Conformément aux dispositions des Articles 6-III et 19 de la Loi
-          n°2004-575 du 21 juin 2004 pour la Confiance dans l’économie
+          n°2004-575 du 21 juin 2004 pour la Confiance dans l&apos;économie
           numérique, dite L.C.E.N., il est porté à la connaissance des
           Utilisateurs du site bien-naitre-et-bien-etre.com les présentes
-          mentions légales.{" "}
+          mentions légales.
         </p>
         <p>
           La connexion et la navigation sur le site bien-naitre-et-bien-etre.com
-          par l’Utilisateur implique acceptation intégrale et sans réserve des
-          présentes mentions légales.{" "}
+          par l&apos;Utilisateur implique acceptation intégrale et sans réserve des
+          présentes mentions légales.
         </p>
         <p>
           Ces dernières sont accessibles sur le site à la rubrique « Mentions
-          légales ».{" "}
+          légales ».
         </p>
       </div>
 
       <div style={articles}>
-        <h3 style={headerMargin}>ARTICLE 1 : L’éditeur</h3>
+        <h3 style={headerMargin}>ARTICLE 1 : L&apos;éditeur</h3>
         <p>
-          L’édition et la direction de la publication du site
+          L&apos;édition et la direction de la publication du site
           bien-naitre-et-bien-etre.com est assurée par VIRGINIE PERRAULT,
-          domiciliée 164 QUINTO RUE D'AGUESSEAU, dont le numéro de téléphone est
-          0660050162, et l'adresse e-mail perrault.virginie@gmail.com.{" "}
+          domiciliée 164 QUINTO RUE D&apos;AGUESSEAU, dont le numéro de téléphone est
+          0660050162, et l&apos;adresse e-mail perrault.virginie@gmail.com.
         </p>
       </div>
 
       <div style={articles}>
-        <h3 style={headerMargin}>ARTICLE 2 : L’hébergeur</h3>
+        <h3 style={headerMargin}>ARTICLE 2 : L&apos;hébergeur</h3>
         <p>
-          L'hébergeur du site bien-naitre-et-bien-etre.com est la Société OVH,
+          L&apos;hébergeur du site bien-naitre-et-bien-etre.com est la Société OVH,
           dont le siège social est situé au 2 rue kelermann BP 80157 59100
-          Roubaix , avec le numéro de téléphone : _______________.{" "}
+          Roubaix , avec le numéro de téléphone : _______________.
         </p>
       </div>
 
@@ -66,23 +66,23 @@ export default function MentionsLegales() {
         <p>
           Le site est exempté de déclaration à la Commission Nationale
           Informatique et Libertés (CNIL) dans la mesure où il ne collecte
-          aucune donnée concernant les utilisateurs.{" "}
+          aucune donnée concernant les utilisateurs.
         </p>
       </div>
 
       <div style={articles}>
         <h3 style={headerMargin}>ARTICLE 5 : Cookies</h3>
         <p>
-          L’Utilisateur est informé que lors de ses visites sur le site, un
-          cookie peut s’installer automatiquement sur son logiciel de
-          navigation.{" "}
+          L&apos;Utilisateur est informé que lors de ses visites sur le site, un
+          cookie peut s&apos;installer automatiquement sur son logiciel de
+          navigation.
         </p>
         <p>En naviguant sur le site, il les accepte.</p>
         <p>
-          Un cookie est un élément qui ne permet pas d’identifier l’Utilisateur
+          Un cookie est un élément qui ne permet pas d’identifier l&apos;Utilisateur
           mais sert à enregistrer des informations relatives à la navigation de
-          celui-ci sur le site Internet. L’Utilisateur pourra désactiver ce
-          cookie par l’intermédiaire des paramètres figurant au sein de son
+          celui-ci sur le site Internet. L&apos;Utilisateur pourra désactiver ce
+          cookie par l&apos;intermédiaire des paramètres figurant au sein de son
           logiciel de navigation.
         </p>
       </div>
@@ -91,8 +91,8 @@ export default function MentionsLegales() {
         <h3 style={headerMargin}>ARTICLE 6 : Propriété intellectuelle</h3>
         <p>
           Toute utilisation, reproduction, diffusion, commercialisation,
-          modification de toute ou partie du site bien-naitre-et-bien-etre.com﻿,
-          sans autorisation de l’Editeur est prohibée et pourra entraînée des
+          modification de toute ou partie du site bien-naitre-et-bien-etre.com,
+          sans autorisation de l&apos;Editeur est prohibée et pourra entraînée des
           actions et poursuites judiciaires telles que notamment prévues par le
           Code de la propriété intellectuelle et le Code civil.
         </p>
