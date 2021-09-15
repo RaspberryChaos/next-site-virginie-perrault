@@ -17,7 +17,22 @@
   padding: 0.5rem 1.5rem;
 }
 
+.formGroup select {
+  border-radius: 2rem;
+  padding: 0.5rem 1.5rem;
+  font-family: var(--ff-headings);
+  font-size: 0.8rem;
+}
+
+
 /*MEDIA QUERIES*/
+
+/*Extra Small, Mobile*/
+@media (min-width: 500px) {
+  .formGroup select {
+    font-size: inherit;
+  }
+}
 
 /* Small Devices, Tablets */
 @media (min-width: 768px) {

@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../styles/ContactForm.module.css";
 
-const ContactForm = () => {
+const ContactForm = (props) => {
+
   return (
     <div id="contact-form">
-      <h2>Formulaire de Contact</h2>
+      <h2>{props.title}</h2>
       <form
         target="_blank"
         rel="noopener noreferrer"
@@ -17,34 +18,70 @@ const ContactForm = () => {
           value="http://127.0.0.1:5500/merci.html"
         />
         <div className={styles.formGroup}>
-          <label for="nom">Votre Nom *</label>
+          <label htmlFor="nom">Votre Nom *</label>
           <input
             type="text"
             name="nom"
             id="nom"
-            class="form-control"
             placeholder="Votre nom"
             required
           />
         </div>
 
         <div className={styles.formGroup}>
-          <label for="email">E-mail *</label>
+          <label htmlFor="email">E-mail *</label>
           <input
             type="email"
             name="email"
             id="email"
-            class="form-control"
             placeholder="Votre Adresse Mail"
             required
           />
         </div>
 
+        {props.title === "Demande de bon cadeau" &&
+          <div>
+                    <div className={styles.formGroup}>
+                        <label htmlFor="bons-cadeaux">Bon Cadeau :</label>
+                          <select name="bons-cadeaux" id="bons-cadeaux">
+                            <option className={styles.choix} value="choix">Choisir un Bon Cadeau</option>
+                            <option value="massage_bebe_5seances">
+                              Massage Bébé - 5 séances
+                            </option>
+                            <option value="massage_bebe_seance_decoverte">
+                              Massage Bébé - Séance Decouverte
+                            </option>
+                            <option value="massage_femme_enceinte">
+                              Massage Femme Enceinte Ayurveda
+                            </option>
+                            <option value="accompagnant_perinatale_conseils">
+                              Accompagnante Périnatale - Conseils
+                            </option>
+                            <option value="accompagnant_perinatale_soins">
+                              Accompagnante Périnatale - Soins
+                            </option>
+                          </select>
+
+                    </div>
+                  <div className={styles.formGroup}>
+                    <label htmlFor="quantity">Quantité : </label>
+                    <input
+                      type="number"
+                      id="quantité"
+                      name="quantité"
+                      min="1"
+                      max="100"
+                      // value={quantity}
+                      // onChange={handleChange}
+                      defaultValue={1}
+                    />
+                  </div>
+                </div>}
+
         <div className={styles.formGroup}>
-          <label for="message">Votre Message *</label>
+          <label htmlFor="message">Votre Message *</label>
           <textarea
             placeholder="Ecrivez votre message ici"
-            class="form-control"
             name="message"
             id="message"
             rows="10"
@@ -52,7 +89,7 @@ const ContactForm = () => {
           ></textarea>
         </div>
 
-        <button type="submit" class="btn btnRdv">
+        <button type="submit" className="btn btnRdv">
           Envoyer
         </button>
       </form>

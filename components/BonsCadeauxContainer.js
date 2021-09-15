@@ -7,7 +7,6 @@ const BonsCadeauxContainer = () => {
     <section id="bons-cadeaux">
       <h2 className="sectionHeading">Bons Cadeaux</h2>
       <div className={styles.grid}>
-
         <BonsCadeaux
           title="Atelier Massage Bébé"
           src="/imgs/footprint-purple.png"
@@ -19,7 +18,7 @@ const BonsCadeauxContainer = () => {
           title="Atelier Massage Bébé"
           src="/imgs/toys-purple.png"
           alt="jouets pour bébé"
-          text="1 Séance Decouvert à Domicile"
+          text="1 Séance Decouverte à Domicile"
         />
 
         <BonsCadeaux
@@ -28,6 +27,14 @@ const BonsCadeauxContainer = () => {
           alt="femme enceinte"
           text="Un Massage Femme Enceinte Durée 1h30 à Domicile"
         />
+
+        <BonsCadeaux
+          title="Accompagnante Périnatale"
+          src="/imgs/baby-mobile.png"
+          alt="mobile bébé"
+          text="Conseils: €50 / Soins: €60"
+        />
+
       </div>
     </section>
   );

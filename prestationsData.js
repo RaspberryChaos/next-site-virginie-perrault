@@ -57,19 +57,28 @@ export const prestationsData = [
         imageSrc: "/imgs/massage-ecole.jpg",
         imageAlt: "massage à l'école",
         shortText: "Le massage favorise un climat de partage et de respect. L'enfant apprendra à être à l'écoute de lui-même et des autres.",
-        description: "Le massage permet de créer avec son bébé un lien d'attachement et de sécurité mais aussi de stimuler tous les systèmes vitaux et soulager les coliques et la constipation et permet au bébé de se relaxer (amélioration du sommeil).",
+        description: "Pour les 5/10 ans: VOYAGE AUTOUR DES 5 CONTINENTS",
+        description2: "5 petites séances de massage en duo où les enfants apprennent à se masser de façon ludique.",
         list: [
-            "1ère séance: massage des jambes",
-            "2ème séance: massage du ventre et coliques",
-            "3ème séance: massage poitrine et bras",
-            "4ème séance: massage visage et dos",
-            "5ème séance: massage complet"
+            "1. La tête en AFRIQUE",
+            "2. Les bras en AMÉRIQUE",
+            "3. Le dos en OCÉANIE",
+            "4. Les jambes en ASIE",
+            "5. Les pieds en EUROPE"
         ],
-        price1: "5 Séances de 1h30 minutes • 200€",
-        price2: "Séance découverte 60€",
+        description3: "Pour les 3/4 ans:",
+        description4: "3 petites séances de massage en duo où les enfants apprennent à se masser de façon ludique.",
+        list2: [
+            "1. La météo tactile",
+            "2. Le massage par le jeu",
+            "3. Le massage caméléon",
+        ],
+        priceGrands: "5 séances de 1 heure, 40 euros la séance",
+        pricePetits: "3 séances de 1h 40 euros la séance",
         available: true,
         backgroundColor: "rgba(250, 201, 164, 0.75)"
     },
+
     {
         id:"yoga-kids",
         heading: "Yoga kids",

@@ -10,7 +10,7 @@ export default function MentionsLegales() {
 
   return (
     <div className="container">
-      <h1 className="section-heading">Mentions Legales</h1>
+      <h1 className="sectionHeading">Mentions Legales</h1>
       <p style={{marginBottom: "2rem"}}>En vigueur au 15/09/2021</p>
       <div style={articles}>
         <p>
@@ -36,7 +36,7 @@ export default function MentionsLegales() {
         <p>
           L’édition et la direction de la publication du site
           bien-naitre-et-bien-etre.com est assurée par VIRGINIE PERRAULT,
-          domiciliée 164 QUINTO RUE D AGUESSEAU, dont le numéro de téléphone est
+          domiciliée 164 QUINTO RUE D'AGUESSEAU, dont le numéro de téléphone est
           0660050162, et l'adresse e-mail perrault.virginie@gmail.com.{" "}
         </p>
       </div>
@@ -99,6 +99,7 @@ export default function MentionsLegales() {
       </div>
 
       <p style={articles}>Rédigé sur http://legalplace.fr </p>
+      
     </div>
   );
 }
