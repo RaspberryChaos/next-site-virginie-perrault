@@ -19,7 +19,7 @@ const Navbar = () => {
         <Link href="/" passHref>
           <a onClick={handleClick}>
             <Image
-              src="/imgs/home-icon.png"
+              src="/imgs/home-icon-white.png"
               alt="Maison"
               width={50}
               height={50}

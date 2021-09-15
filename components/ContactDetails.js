@@ -76,14 +76,14 @@ const ContactDetails = () => {
           rel="noopener noreferrer"
           className={styles.resSocial}
         >
+        <div className={`${styles.logo} ${styles.logoFB}`}>
           <Image
             src="/imgs/facebook-icon.png"
             alt="facebook logo"
             width={200}
             height={200}
-            layout="responsive"
-            className={`${styles.logo} ${styles.logoFB}`}
           />
+          </div>
           <span>Virginie Perrault, Bien naître et Bien être</span>
         </a>
         <a
@@ -92,14 +92,14 @@ const ContactDetails = () => {
           rel="noopener noreferrer"
           className={styles.resSocial}
         >
+        <div  className={styles.logo}>
           <Image
             src="/imgs/instagram-logo.png"
             alt="instagram logo"
             width={200}
             height={200}
-            layout="responsive"
-            className={styles.logo}
           />
+          </div>
           <span>Virginie Perrault</span>
         </a>
       </div>

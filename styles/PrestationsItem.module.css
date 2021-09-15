@@ -18,13 +18,22 @@
       text-align: left;
   }
 
-  #massage-bebe {
+  /* #massage-bebe {
     background-color: var(--clr-massage-bebe);
   }
   
   #massage-ecole {
     background-color: var(--clr-ecole);
+  } */
+
+  .prestationHeading {
+    padding: 1rem;
+    font-size: 1.8rem;
   }
+
+.details:hover {
+  cursor: pointer;
+}
 
 /*MEDIA QUERIES*/
 
@@ -47,4 +56,11 @@
     .imageContainer {
         width: 32%;
     }
+}
+
+/* Large Devices, Wide Screens */
+@media (min-width: 1200px) {
+  .prestationHeading {
+    font-size: 2.2rem;
+  }
 }

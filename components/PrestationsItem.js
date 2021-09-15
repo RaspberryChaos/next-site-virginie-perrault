@@ -4,13 +4,10 @@ import styles from "../styles/PrestationsItem.module.css";
 
 const PrestationsItem = (props) => {
 
-  const handleClick = () => {
-
-  }
 
     return (
         <div className="grid-item" style={{backgroundColor: props.prestation.backgroundColor, boxShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)"}}>
-        <h3>{props.prestation.heading}</h3>
+        <h3 className={styles.prestationHeading}>{props.prestation.heading}</h3>
         
         <div className={styles.imageContainer}>
           <Image
@@ -26,7 +23,8 @@ const PrestationsItem = (props) => {
 
             <p className={styles.alignLeft}>{props.prestation.shortText}</p>
 
-            <details>
+{props.prestation.description && 
+            <details className={styles.details}>
     <summary >En Savoir Plus</summary>
     
             <div >
@@ -65,13 +63,14 @@ const PrestationsItem = (props) => {
 
             </div>
 </details>
+}
 
             {props.prestation.price1 && <p>{props.prestation.price1}</p>}
             {props.prestation.price2 && <p>{props.prestation.price2}</p>}
 
 
         <div className={styles.buttons}>
-          {props.prestation.description && <button className="btn btnEsp" onClick={handleClick}>En Savoir Plus</button> }
+          {/* {props.prestation.description && <button className="btn btnEsp" onClick={handleClick}>En Savoir Plus</button> } */}
           {props.prestation.available && <a href="#contact" className="btn btnRdv">Prendre Rendez-Vous</a> }
         </div>
       </div>

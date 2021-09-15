@@ -10,7 +10,8 @@ const style = {
 }
 
 const imageContainer = {
-  width: "40%"
+  width: "40%",
+  margin: "1rem"
 }
 
 

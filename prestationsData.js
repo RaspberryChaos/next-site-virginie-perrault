@@ -16,18 +16,7 @@ export const prestationsData = [
         price1: "5 Séances de 1h30 minutes • 200€",
         price2: "Séance découverte 60€",
         available: true,
-        backgroundColor: "rgba(182, 178, 233, 0.75)"
-    },
-    {
-        id:"massage-femme-enceinte",
-        heading: "Massage femme enceinte ayurvéda",
-        imageSrc: "/imgs/massage-femme-enceinte.jpg",
-        imageAlt: "massage femme enceinte",
-        shortText: "Massage relaxant et apaisant qui vous soulagera durant la grossesse de toute les tensions au niveau du dos et améliorera la circulation sanguine et la digestion.",
-        description: "Massage relaxant et apaisant qui vous soulagera durant la grossesse de toute les tensions au niveau du dos et améliorera la circulation sanguine et la digestion. Le massage ayurvédique est un massage complet du corps. Le massage se pratique à partir du 4ème mois de grossesse.",
-        price1: "1 heure 30 minutes • 90 €",
-        available: true,
-        backgroundColor: "rgba(251, 202, 227, 0.75)"
+        backgroundColor: "rgba(182, 178, 233, 1)"
     },
     {
         id:"accompagnante-périnatale",
@@ -38,18 +27,29 @@ export const prestationsData = [
         price1: "Conseils • 50 €",
         price2: "Soins • 60 €",
         available: true,
-        backgroundColor: "rgba(227, 176, 232, 0.75)"
+        backgroundColor: "rgba(227, 176, 232, 1)"
+    },
+    {
+        id:"massage-femme-enceinte",
+        heading: "Massage femme enceinte ayurvéda",
+        imageSrc: "/imgs/massage-femme-enceinte.jpg",
+        imageAlt: "massage femme enceinte",
+        // shortText: "Massage relaxant et apaisant qui vous soulagera durant la grossesse de toute les tensions au niveau du dos et améliorera la circulation sanguine et la digestion.",
+        shortText: "Massage relaxant et apaisant qui vous soulagera durant la grossesse de toute les tensions au niveau du dos et améliorera la circulation sanguine et la digestion. Le massage ayurvédique est un massage complet du corps. Le massage se pratique à partir du 4ème mois de grossesse.",
+        price1: "1 heure 30 minutes • 90 €",
+        available: true,
+        backgroundColor: "rgba(251, 202, 227, 1)"
     },
     {
         id:"papas",
         heading: "Groupe de parole pour les papas",
         imageSrc: "/imgs/papa-photo.jpg",
         imageAlt: "papa avec bébé",
-        shortText: "Je propose des tables rondes pour les futurs papas. Ils auront la possibilité de poser des questions sur la grossesse, l’accouchement et l’arrivée de bébé. Tous les thèmes sont abordés.",
-        description: "L’arrivée d’un enfant est un événement heureux qui touche l’ensemble de la famille. Le papa se sent de plus en plus concerné mais beaucoup moins informé que la maman. Je propose des tables rondes pour les futurs papas. Ils auront la possibilité de poser des questions sur la grossesse, l’accouchement et l’arrivée de bébé. Tous les thèmes sont abordés, y compris le congé paternité ou le retour à la maison, les soins du bébé, les couches et les biberons.",
+        // shortText: "Je propose des tables rondes pour les futurs papas. Ils auront la possibilité de poser des questions sur la grossesse, l’accouchement et l’arrivée de bébé. Tous les thèmes sont abordés.",
+        shortText: "L’arrivée d’un enfant est un événement heureux qui touche l’ensemble de la famille. Le papa se sent de plus en plus concerné mais beaucoup moins informé que la maman. Je propose des tables rondes pour les futurs papas. Ils auront la possibilité de poser des questions sur la grossesse, l’accouchement et l’arrivée de bébé. Tous les thèmes sont abordés, y compris le congé paternité ou le retour à la maison, les soins du bébé, les couches et les biberons.",
         price1: "1 heure • 40€",
         available: true,
-        backgroundColor: "rgba(181, 209, 250, 0.75)"
+        backgroundColor: "rgba(181, 209, 250, 1)"
     },
     {
         id:"massage-ecole",
@@ -74,9 +74,9 @@ export const prestationsData = [
             "3. Le massage caméléon",
         ],
         priceGrands: "5 séances de 1 heure, 40 euros la séance",
-        pricePetits: "3 séances de 1h 40 euros la séance",
+        pricePetits: "3 séances de 1h, 40 euros la séance",
         available: true,
-        backgroundColor: "rgba(250, 201, 164, 0.75)"
+        backgroundColor: "rgba(250, 201, 164, 1)"
     },
 
     {
@@ -85,7 +85,7 @@ export const prestationsData = [
         imageSrc: "/imgs/yoga-kids.jpg",
         imageAlt: "un enfant en train de faire du yoga",
         shortText: "Bientôt disponible!",
-        backgroundColor: "rgba(123, 215, 208, 0.75)"
+        backgroundColor: "rgba(123, 215, 208, 1)"
     },
 ];
 
