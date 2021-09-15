@@ -9,7 +9,7 @@
   }
   
   .navLink {
-    font-family: var(--ff-headings);
+    font-family: var(--ff-);
     color: var(--clr-headings);
     font-size: 2rem;
     padding: 0 1rem;
