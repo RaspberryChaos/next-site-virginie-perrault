@@ -6,7 +6,8 @@ const style = {
         border: "4px solid var(--clr-purple)",
         color: "var(--clr-purple)",
         backgroundColor: "#ffffff",
-        boxShadow: "var(--box-shadow)"
+        boxShadow: "var(--box-shadow)",
+        justifyContent: "space-between"
 }
 
 const imageContainer = {
