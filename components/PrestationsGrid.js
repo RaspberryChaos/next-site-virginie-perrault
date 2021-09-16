@@ -9,7 +9,7 @@ const PrestationsGrid = () => {
         <div className="location">
           <p>Séance à domicile </p>
           <p>ou</p> 
-          <p>164 quinquies rue d'aguesseau</p>
+          <p>164 quinquies rue d&apos;aguesseau</p>
           <p>92100 BOULOGNE BILLANCOURT</p>
         </div>
 
