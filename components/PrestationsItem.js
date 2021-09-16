@@ -22,6 +22,7 @@ const PrestationsItem = (props) => {
         
 
             <p className={styles.alignLeft}>{props.prestation.shortText}</p>
+            {props.prestation.shortText2 && <p className={styles.alignLeft}>{props.prestation.shortText2}</p>}
 
 {props.prestation.description && 
             <details className={styles.details}>

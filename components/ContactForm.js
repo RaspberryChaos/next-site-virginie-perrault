@@ -46,19 +46,19 @@ const ContactForm = (props) => {
                           <select name="bons-cadeaux" id="bons-cadeaux">
                             <option className={styles.choix} value="choix">Choisir un Bon Cadeau</option>
                             <option value="massage_bebe_5seances">
-                              Massage Bébé - 5 séances
+                              Massage Bébé - 5 séances (200€)
                             </option>
                             <option value="massage_bebe_seance_decoverte">
-                              Massage Bébé - Séance Decouverte
+                              Massage Bébé - Séance Decouverte (60€)
                             </option>
                             <option value="massage_femme_enceinte">
-                              Massage Femme Enceinte Ayurveda
+                              Massage Femme Enceinte Ayurveda (90€)
                             </option>
                             <option value="accompagnant_perinatale_conseils">
-                              Accompagnante Périnatale - Conseils
+                              Accompagnante Périnatale - Conseils (50€)
                             </option>
                             <option value="accompagnant_perinatale_soins">
-                              Accompagnante Périnatale - Soins
+                              Accompagnante Périnatale - Soins (60€)
                             </option>
                           </select>
 

@@ -30,10 +30,11 @@ const BonsCadeaux = (props) => {
       />
 
       </div>
-      <p>{props.text}</p>
+      {props.text && <p>{props.text}</p>}
+      <p>{props.price}</p>
       <Link href="/bons-cadeaux" passHref> 
       <button className="btn btnRdv">
-        Acheter
+        Prendre RDV
         </button>
       </Link>
     </div>

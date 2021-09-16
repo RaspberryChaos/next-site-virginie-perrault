@@ -18,7 +18,7 @@ const QuiSuisJe = () => {
 
         <div className={styles.about}>
           <h1 className={styles.profileHeading}>Virginie Perrault</h1>
-          <p>
+          <p style={{textAlign:"left"}}>
             Je m&apos;appelle Virginie, je suis âgée de 39 ans, je suis maman de deux
             enfants, et cela fait maintenant un peu plus de 15 ans que je
             travaille en tant qu&apos;aide-soignante et auxiliaire de puériculture.

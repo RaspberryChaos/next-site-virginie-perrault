@@ -12,11 +12,11 @@ const LandingPage = () => {
             Aide soignante et auxiliaire de puériculture au sein de l&apos;hôpital
             public
           </p>
-          <p>-Ateliers massage bébé</p>
-          <p>-Massage femmes enceintes</p>
-          <p>-Animation des groupes de paroles pour les papas</p>
-          <p>-Conseils en périnatalité</p>
-          <p>-Atelier toucher relaxation à l&apos;école et à la crèche</p>
+          <p>- Ateliers massage bébé</p>
+          <p>- Massage femmes enceintes</p>
+          <p>- Animation des groupes de paroles pour les papas</p>
+          <p>- Accompagnante périnatale</p>
+          <p>- Atelier toucher relaxation à l&apos;école et à la crèche</p>
           <div className={styles.headerButtons}>
             <a href="#prestations" className="btn btnEsp">Découvrir Mes Services</a>
             <a href="#contact" className="btn btnRdv">Me Contacter</a>

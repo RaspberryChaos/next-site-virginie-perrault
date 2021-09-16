@@ -23,7 +23,7 @@ export const prestationsData = [
         heading: "Accompagnante périnatale",
         imageSrc: "/imgs/conseils.jpg",
         imageAlt: "body et accessoires pour bébé",
-        shortText: "Pendant le séjour en maternité, les parents ont des interlocuteurs variés et reçoivent des conseils différents d’une personne à l’autre. Et au moment du retour à la maison, le couple se retrouve la plupart du temps très seul. C'est pourquoi , je vous propose de vous accompagner avant , pendant et après votre grossesse en vous donnant des conseils en puériculture et de vous accompagner pour les soins  de votre enfant à la sortie de la maternité cela peut être rassurant.",
+        shortText: "Pendant le séjour en maternité, les parents ont des interlocuteurs variés et reçoivent des conseils différents d’une personne à l’autre. Et au moment du retour à la maison, le couple se retrouve la plupart du temps très seul. C'est pourquoi, je vous propose de vous accompagner avant, pendant et après votre grossesse en vous donnant des conseils en puériculture et de vous accompagner pour les soins  de votre enfant à la sortie de la maternité cela peut être rassurant.",
         price1: "Conseils • 50 €",
         price2: "Soins • 60 €",
         available: true,
@@ -46,7 +46,8 @@ export const prestationsData = [
         imageSrc: "/imgs/papa-photo.jpg",
         imageAlt: "papa avec bébé",
         // shortText: "Je propose des tables rondes pour les futurs papas. Ils auront la possibilité de poser des questions sur la grossesse, l’accouchement et l’arrivée de bébé. Tous les thèmes sont abordés.",
-        shortText: "L’arrivée d’un enfant est un événement heureux qui touche l’ensemble de la famille. Le papa se sent de plus en plus concerné mais beaucoup moins informé que la maman. Je propose des tables rondes pour les futurs papas. Ils auront la possibilité de poser des questions sur la grossesse, l’accouchement et l’arrivée de bébé. Tous les thèmes sont abordés, y compris le congé paternité ou le retour à la maison, les soins du bébé, les couches et les biberons.",
+        shortText: "L’arrivée d’un enfant est un événement heureux qui touche l’ensemble de la famille et le papa se sent de plus en plus concerné, mais beaucoup moins informé que la maman.",
+        shortText2: "Je propose des tables rondes pour les futurs papas.  Ils auront la possibilité de poser des questions sur la grossesse, l’accouchement et l’arrivée de bébé. Tous les thèmes sont abordés, y compris le congé paternité ou le retour à la maison, les soins du bébé, les couches et les biberons.",
         price1: "1 heure • 40€",
         available: true,
         backgroundColor: "rgba(181, 209, 250, 1)"
