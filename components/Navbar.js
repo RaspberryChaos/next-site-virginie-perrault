@@ -5,10 +5,14 @@ import styles from "../styles/Nav.module.css";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [hover, setHover] = useState(false);
 
   const handleClick = () => {
     setMenuOpen((prev) => !prev);
   };
+
+  const onMouseEnter = () => setHover(true);
+  const onMouseLeave = () => setHover(false);
 
   return (
     <nav className={styles.mainNav}>
@@ -16,43 +20,73 @@ const Navbar = () => {
         className={styles.navMenu}
         style={{ right: menuOpen ? "0" : "-100%" }}
       >
-        <Link href="/" passHref>
-          <a onClick={handleClick}>
-            <Image
-              src="/imgs/home-icon-white.png"
-              alt="Maison"
-              width={50}
-              height={50}
-            />
-          </a>
-        </Link>
+        <li>
+          <Link href="/" passHref>
+            <a
+              onClick={handleClick}
+              onMouseEnter={onMouseEnter}
+              onMouseLeave={onMouseLeave}
+            >
+              {hover ? (
+                <Image
+                  src="/imgs/home-icon.png"
+                  alt="Maison"
+                  width={50}
+                  height={50}
+                />
+              ) : (
+                <Image
+                  src="/imgs/home-icon-white.png"
+                  alt="Maison"
+                  width={50}
+                  height={50}
+                />
+              )}
+            </a>
+          </Link>
+        </li>
 
         <li>
-          <a href="/#qui-suis-je" className={styles.navLink} onClick={handleClick}>
-            Qui suis-je?
-          </a>
+          <Link href="/#qui-suis-je" passHref>
+            <a className={styles.navLink} onClick={handleClick}>
+              Qui suis-je?
+            </a>
+          </Link>
         </li>
+
         <li>
-          <a href="/#prestations" className={styles.navLink} onClick={handleClick}>
-            Prestations
-          </a>
+          <Link href="/#prestations" passHref>
+            <a className={styles.navLink} onClick={handleClick}>
+              Prestations
+            </a>
+          </Link>
         </li>
+
         <li>
-          <a href="/#avis" className={styles.navLink} onClick={handleClick}>
-            Avis
-          </a>
+          <Link href="/#avis" passHref>
+            <a className={styles.navLink} onClick={handleClick}>
+              Avis
+            </a>
+          </Link>
         </li>
+
         <li>
-          <a href="/#bons-cadeaux" className={styles.navLink} onClick={handleClick}>
-            Bons Cadeaux
-          </a>
+          <Link href="/#bons-cadeaux" passHref>
+            <a className={styles.navLink} onClick={handleClick}>
+              Bons Cadeaux
+            </a>
+          </Link>
         </li>
+
         <li>
-          <a href="/#contact" className={styles.navLink} onClick={handleClick}>
-            Contact
-          </a>
+          <Link href="/#contact" passHref>
+            <a className={styles.navLink} onClick={handleClick}>
+              Contact
+            </a>
+          </Link>
         </li>
       </ul>
+
       <div
         className={menuOpen ? styles.hamburgerActive : styles.hamburger}
         onClick={handleClick}
