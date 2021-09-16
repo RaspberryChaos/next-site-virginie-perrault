@@ -46,7 +46,7 @@ export default function MentionsLegales() {
         <p>
           L&apos;hébergeur du site bien-naitre-et-bien-etre.com est la Société OVH,
           dont le siège social est situé au 2 rue kelermann BP 80157 59100
-          Roubaix , avec le numéro de téléphone : _______________.
+          Roubaix. 
         </p>
       </div>
 
