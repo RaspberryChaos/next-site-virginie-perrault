@@ -19,7 +19,7 @@ const BonsCadeauxContainer = () => {
           title="Atelier Massage Bébé"
           src="/imgs/toys-purple.png"
           alt="jouets pour bébé"
-          text="1 Séance Decouverte à Domicile"
+          text="1 Séance Découverte à Domicile"
           price="60€"
         />
 

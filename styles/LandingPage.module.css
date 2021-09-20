@@ -51,6 +51,7 @@
         background-image: url("../public/imgs/main-image.jpeg");
         background-size: 60%;
         background-position: right 25%;
+        margin-top: 1rem;
     }
 }
 
@@ -69,6 +70,6 @@
 /* Large Devices, Wide Screens */
 @media (min-width: 1200px) {
     .landingPage {
-      background-size: 28%;
+      background-size: 26%;
     }
   }

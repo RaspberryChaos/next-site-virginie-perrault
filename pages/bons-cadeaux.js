@@ -8,7 +8,7 @@ const BonsCadeauxPage = () => {
     <div className="container">
       <h2 className="sectionHeading">Contact</h2>
       <div className="purple-container contact-container">
-        <ContactForm title="Demande de bon cadeau" />
+        <ContactForm title="Demande de bons cadeaux" />
         <ContactDetails />
       </div>
       </div>

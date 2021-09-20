@@ -39,7 +39,7 @@ const ContactForm = (props) => {
           />
         </div>
 
-        {props.title === "Demande de bon cadeau" &&
+        {props.title === "Demande de bons cadeaux" &&
           <div>
                     <div className={styles.formGroup}>
                         <label htmlFor="bons-cadeaux">Bon Cadeau :</label>
@@ -49,7 +49,7 @@ const ContactForm = (props) => {
                               Massage Bébé - 5 séances (200€)
                             </option>
                             <option value="massage_bebe_seance_decoverte">
-                              Massage Bébé - Séance Decouverte (60€)
+                              Massage Bébé - Séance Découverte (60€)
                             </option>
                             <option value="massage_femme_enceinte">
                               Massage Femme Enceinte Ayurveda (90€)
