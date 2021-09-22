@@ -19,11 +19,7 @@ const QuiSuisJe = () => {
         <div className={styles.about}>
           <h1 className={styles.profileHeading}>Virginie Perrault</h1>
           <p style={{textAlign:"left"}}>
-            Je m&apos;appelle Virginie, je suis âgée de 39 ans, je suis maman de deux
-            enfants, et cela fait maintenant un peu plus de 15 ans que je
-            travaille en tant qu&apos;aide-soignante et auxiliaire de puériculture.
-            Avec mon savoir, mes connaissances et ma bienveillance, j&apos;aimerais
-            accompagner les mamans à vivre leur maternité.
+          Maman de 2 enfants et auxiliaire de puériculture, j&apos;ai travaillé pendant de nombreuses années au sein de différents services hospitaliers. Aujourd&apos;hui, je vous accompagne à domicile avec mon savoir faire, mes connaissances et ma bienveillance dans cette aventure de la maternité et de la parentalité afin de vivre au mieux votre rôle de parents. 
           </p>
 
           <h3 className={styles.profileHeading}>Mes Diplômes</h3>

@@ -6,6 +6,7 @@ export const prestationsData = [
         imageAlt: "massage bébé",
         shortText: "Atelier de 5 séances qui vous permettront de découvrir le massage complet de votre bébé et d'en apprécier les bienfaits.",
         description: "Le massage permet de créer avec son bébé un lien d'attachement et de sécurité mais aussi de stimuler tous les systèmes vitaux et soulager les coliques et la constipation et permet au bébé de se relaxer (amélioration du sommeil).",
+        description2: "Pendant les séances, vous apprendrez à masser votre bébé par le biais de techniques de toucher du massage indien, massage suédois, yoga et réflexologie. Cet apprentissage est progressif pour vous laisser le temps de pratiquer et laisser le temps au bébé d’intégrer les mouvements. Il vous permet, de plus, de laisser un temps de réflexion sur les thèmes abordés en séance.",
         list: [
             "1ère séance: massage des jambes",
             "2ème séance: massage du ventre et coliques",
