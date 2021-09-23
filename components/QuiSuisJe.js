@@ -22,7 +22,7 @@ const QuiSuisJe = () => {
           Maman de 2 enfants et auxiliaire de puériculture, j&apos;ai travaillé pendant de nombreuses années au sein de différents services hospitaliers. Aujourd&apos;hui, je vous accompagne à domicile avec mon savoir faire, mes connaissances et ma bienveillance dans cette aventure de la maternité et de la parentalité afin de vivre au mieux votre rôle de parents. 
           </p>
 
-          <h3 className={styles.profileHeading}>Mes Diplômes</h3>
+          <h2 className={styles.profileHeading}>Mes Diplômes</h2>
 
           <p>Diplôme d&apos;État d&apos;Auxiliaire de Puériculture</p>
 
