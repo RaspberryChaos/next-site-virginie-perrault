@@ -42,7 +42,7 @@ Meta.defaultProps = {
   keywords:
     "Aide soignante, auxiliaire de puériculture, massage bébé, femme enceinte, massage femmes enceintes, maman, papa, future maman, accompagnante périnatale, yoga kids",
   description:
-    "Aide soignante et auxiliaire de puériculture au sein de l'hôpital public. Accompagnante périnatale, ateliers massage bébé, massage femme enceinte ayurvéda, groupe de parole pour les papas et ateliers toucher relaxation à l'école et à la crèche.",
+    "Aide soignante et auxiliaire de puériculture au sein de l&apos;hôpital public. Accompagnante périnatale, ateliers massage bébé, massage femme enceinte ayurvéda, groupe de parole pour les papas et ateliers toucher relaxation à l&apos;école et à la crèche.",
 };
 
 export default Meta;
