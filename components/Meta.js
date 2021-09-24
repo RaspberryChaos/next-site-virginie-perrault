@@ -9,7 +9,7 @@ const Meta = ({ title, keywords, description }) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>{title}</title>
 
-      <meta name="description" content={description} />
+      <meta name="description" content="Aide soignante et auxiliaire de puériculture au sein de l&rsquo;hôpital public. Accompagnante périnatale, ateliers massage bébé, massage femme enceinte ayurvéda, groupe de parole pour les papas et ateliers toucher relaxation à l&rsquo;école et à la crèche.", />
       <meta name="keywords" content={keywords} />
 
       <link rel="icon" href="/imgs/favicon.ico" />
@@ -51,7 +51,7 @@ Meta.defaultProps = {
   keywords:
     "Aide soignante, auxiliaire de puériculture, massage bébé, femme enceinte, massage femmes enceintes, maman, papa, future maman, accompagnante périnatale, yoga kids",
   description:
-    "Aide soignante et auxiliaire de puériculture au sein de l&rsquo;hôpital public. Accompagnante périnatale, ateliers massage bébé, massage femme enceinte ayurvéda, groupe de parole pour les papas et ateliers toucher relaxation à l&rsquo;école et à la crèche.",
+    "Aide soignante et auxiliaire de puériculture au sein de l'hôpital public. Accompagnante périnatale, ateliers massage bébé, massage femme enceinte ayurvéda, groupe de parole pour les papas et ateliers toucher relaxation à l'école et à la crèche.",
 };
 
 export default Meta;
