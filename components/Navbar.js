@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Nav.module.css";
@@ -6,6 +6,17 @@ import styles from "../styles/Nav.module.css";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [hover, setHover] = useState(false);
+
+  const onScroll = (e) => {
+    if(menuOpen === true) {
+      window.scrollTo(0,0);
+    }
+  };
+  
+  useEffect(() => {
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [menuOpen]);
 
   const handleClick = () => {
     setMenuOpen((prev) => !prev);
