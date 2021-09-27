@@ -6,20 +6,26 @@ import styles from "../styles/Nav.module.css";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [hover, setHover] = useState(false);
+  const [screenSize, setScreenSize] = useState("desktop");
 
   const onScroll = (e) => {
-    if(menuOpen === true) {
-      window.scrollTo(0,0);
+    if (menuOpen === true && screenSize === "mobile") {
+      window.scrollTo(0, 0);
     }
   };
-  
+
   useEffect(() => {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, [menuOpen]);
 
-  const handleClick = () => {
+  const handleClick = (e, type) => {
     setMenuOpen((prev) => !prev);
+    if (type === "menu" && screenSize === "desktop") {
+      setScreenSize("mobile");
+    } else {
+      setScreenSize("desktop");
+    }
   };
 
   const onMouseEnter = () => setHover(true);
@@ -34,7 +40,7 @@ const Navbar = () => {
         <li>
           <Link href="/" passHref>
             <a
-              onClick={handleClick}
+              onClick={(e) => handleClick(e, "link")}
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}
             >
@@ -59,7 +65,10 @@ const Navbar = () => {
 
         <li>
           <Link href="/#qui-suis-je" passHref>
-            <a className={styles.navLink} onClick={handleClick}>
+            <a
+              className={styles.navLink}
+              onClick={(e) => handleClick(e, "link")}
+            >
               Qui suis-je?
             </a>
           </Link>
@@ -67,7 +76,10 @@ const Navbar = () => {
 
         <li>
           <Link href="/#prestations" passHref>
-            <a className={styles.navLink} onClick={handleClick}>
+            <a
+              className={styles.navLink}
+              onClick={(e) => handleClick(e, "link")}
+            >
               Prestations
             </a>
           </Link>
@@ -75,7 +87,10 @@ const Navbar = () => {
 
         <li>
           <Link href="/#avis" passHref>
-            <a className={styles.navLink} onClick={handleClick}>
+            <a
+              className={styles.navLink}
+              onClick={(e) => handleClick(e, "link")}
+            >
               Avis
             </a>
           </Link>
@@ -83,7 +98,10 @@ const Navbar = () => {
 
         <li>
           <Link href="/#bons-cadeaux" passHref>
-            <a className={styles.navLink} onClick={handleClick}>
+            <a
+              className={styles.navLink}
+              onClick={(e) => handleClick(e, "link")}
+            >
               Bons Cadeaux
             </a>
           </Link>
@@ -91,7 +109,10 @@ const Navbar = () => {
 
         <li>
           <Link href="/#contact" passHref>
-            <a className={styles.navLink} onClick={handleClick}>
+            <a
+              className={styles.navLink}
+              onClick={(e) => handleClick(e, "link")}
+            >
               Contact
             </a>
           </Link>
@@ -100,7 +121,7 @@ const Navbar = () => {
 
       <div
         className={menuOpen ? styles.hamburgerActive : styles.hamburger}
-        onClick={handleClick}
+        onClick={(e) => handleClick(e, "menu")}
       >
         <span className={styles.bar}></span>
         <span className={styles.bar}></span>
