@@ -191,7 +191,12 @@ ul {
   padding: 0;
 }
 
-
+.avisSection {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: auto;
+}
 
 /*Contact Section*/
 
