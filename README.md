@@ -1,34 +1,16 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+This is a project I have been working on for a client to showcase her small business, which offers services to pregnant women and new parents in particular. The language of the site is French. It is a static site created with Next.js, React, HTML, CSS and JavaScript. I have done both the design and development.
+ 
+After an initial discussion with the client to establish a design brief, I created a mock-up design for both the mobile and desktop versions of the site and submitted them to the client for approval. Once the client had approved the design I started to build the site using HTML, CSS and Javascript. The project was initially supposed to be only one page but the client decided to add some extra features. With over 600 lines of CSS and almost 500 lines of HTML for the homepage, the code was becoming unmanageable, so I decided to start again and build the site using Next.js.
 
-First, run the development server:
+The first version of the site is available here:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+https://github.com/RaspberryChaos/site-virginie-perrault
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://virginie-perrault.netlify.app/
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+I chose Next.js because it can be used as a static site generator, it’s really fast and has a built-in Image Component and automatic image optimization. Migrating the site took some time, but it was worth it because it is so much easier to make changes and updates to the site now with the modular structure of the code and file system routing. I’m waiting on some information from the client to complete the final section (integrating reviews from Google) then I will be uploading the site to the domain name purchased by the client. The latest version is currently deployed on Vercel, available here:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+https://site-virginie-perrault-v2.vercel.app/
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
