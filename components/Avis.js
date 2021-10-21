@@ -14,6 +14,7 @@ const Avis = () => {
         <a
           href="https://search.google.com/local/writereview?placeid=ChIJicxFWHmYpa4R8-Ukm1-v214"
           target="_blank"
+          rel="noreferrer noopener"
           className="btn btnEsp"
         >
           Donnez votre avis sur Google
