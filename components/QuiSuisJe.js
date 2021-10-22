@@ -24,14 +24,15 @@ const QuiSuisJe = () => {
 
           <h2 className={styles.profileHeading}>Mes Diplômes</h2>
 
-          <p>Diplôme d&apos;État d&apos;Auxiliaire de Puériculture</p>
+          <p>Diplôme d&apos;état d&apos;auxiliaire de puériculture</p>
 
           <p>
-            Instructeur en Massage pour Bébé, International Association of
+            Instructeur en massage pour bébé, International Association of
             Infant Massage
           </p>
 
-          <p>Massage Femme Enceinte selon Ayurvéda</p>
+          <p>Massage femme enceinte selon ayurvéda</p>
+          <p>Animatrice en atelier yoga kids</p>
         </div>
       </section>
     )
